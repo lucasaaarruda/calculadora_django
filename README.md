@@ -1,48 +1,77 @@
-# Calculadora
+# Calculadora Django
 
+Uma calculadora web simples desenvolvida em Python utilizando o framework Django. Ideal para estudos e aprimoramento do portfólio, este projeto oferece a base para extensões e melhorias.
 
-# Sobre o projeto
+## 🎯 Sobre o Projeto
 
-Esse projeto consiste em uma calculadora simples feita em Python com o framework Django, criada como projeto de estudos e portfólio.
-O projeto está livre para alterações e melhorias.
+A calculadora permite realizar operações matemáticas básicas (soma, subtração, multiplicação e divisão). O usuário insere dois números, escolhe a operação desejada e visualiza o resultado.
 
-O APP receberá o primeiro número e o segundo número e fará o cálculo de acordo com a operação que for escolhida.
+## 📸 Layout
 
-## Layout
-![Home](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout1.png)
+Confira o layout da calculadora:
 
-![Soma com resultado](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout2.png)
-![Divisão](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout3.png))
+- **Home:**
+  
+  ![Home](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout1.png)
 
-# Tecnologias utilizadas
-## Front-end
-- HTML
-- CSS
+- **Soma com Resultado:**
+  
+  ![Soma com resultado](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout2.png)
 
-## Back-end
-- Python
-- Django
+- **Divisão:**
+  
+  ![Divisão](https://github.com/lucasaaarruda/calculadora_django/blob/main/images/layout3.png)
 
-# Como executar o projeto
-Pré-requisitos: Python, Django
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-# clonar repositório
-git clone https://github.com/lucasaaarruda/calculadora_django
+### Front-end
+- **HTML:** Estruturação da página.
+- **CSS:** Estilização e layout.
 
-# entrar na pasta do projeto back end
-cd calculadora_django
-ou abri-lo diretamente no vscode
+### Back-end
+- **Python:** Linguagem principal do projeto.
+- **Django:** Framework utilizado para o desenvolvimento do projeto.
 
-# subir o servidor
-python manage.py runserver
+## 🚀 Como Executar o Projeto
 
-# abrir o servidor no navegador
-localhost:8000
-```
+### Pré-requisitos
+Certifique-se de ter o Python e o Django instalados em seu ambiente.
 
-# Autor
+### Passos para Execução
 
-Lucas Arruda
+1. **Clone o Repositório:**
 
-https://www.linkedin.com/in/lucasaarruda/
+    ```bash
+    git clone https://github.com/lucasaaarruda/calculadora_django
+    ```
+
+2. **Acesse o Diretório do Projeto:**
+
+    ```bash
+    cd calculadora_django
+    ```
+
+3. **Instale as Dependências (se necessário):**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Suba o Servidor de Desenvolvimento:**
+
+    ```bash
+    python manage.py runserver
+    ```
+
+5. **Acesse o Projeto no Navegador:**
+
+    Navegue para [http://localhost:8000](http://localhost:8000) para visualizar a calculadora.
+
+## 👤 Autor
+
+Lucas Arruda  
+[LinkedIn](https://www.linkedin.com/in/lucasaarruda/)
+
+---
+
+Sinta-se à vontade para contribuir com melhorias e sugestões!
